@@ -22,9 +22,17 @@
   </head>
   <body>
     <!--preloader-->
-    <div id="preloder" style="display: none;">
-		    <div class="loader" style="display: none;"></div>
-	  </div>
+    <!-- <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div> -->
 
     <!--navbar-->
 
@@ -45,50 +53,68 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
-    <!--map banner-->
+    <!--map-image-->
 
-    <img src="imgs/map.png" class="img-fluid" alt="map" style="width:100%;">
+    <div class="map-image">
 
+      <img src="imgs/map.png" class="responsive-img" alt="map" width="100%">
 
-    <!--contact form-->
-    <div class="row">
-
-      <div class="col-lg-6 col-md-12">
-        Message
-      </div>
-      <div class = "col-lg-6 col-md-12">
-        <form class = "col s12">
-          <div class = "row">
-            <div class = "input-field col s6">
-              <input placeholder = "Username"  id = "name"
-                     type = "text" class = "active validate" required />
-              <label for = "name">Username</label>
-            </div>
-
-          <div class = "input-field col s6">
-            <label for = "tel">Password</label>
-                <input id = "tel" type = "tel" placeholder = "Phone Number"
-                     class = "validate" required />
-          </div>
-        </div>
-
-        <div class = "row">
-          <div class = "input-field col s12">
-              <input placeholder = "Email" id = "email" type = "email"
-                     class = "validate">
-              <label for = "email">Email</label>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "input-field col s12">
-            <input placeholder = "Message" id = "comments"
-                  type = "text" />
-            <label for = "comments">Comments</label>
-          </div>
-        </div>
-      </form>
     </div>
 
+    <!--contact-section-->
+
+    <div class="row">
+      <div class="container">
+        <div class="col m12 l4" style="padding:20px;margin-top:5%;">
+          <h3 style="font-size:40px;">Get In Touch</h3>
+          <p style="font-size:20px;">Reach Overseas</p>
+            <a style="color:black;" href="https://www.google.com/maps/place/Reach+Overseas/@17.4003151,78.4886743,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb99c3eb4f447f:0x862f0b4bc49b88d9!8m2!3d17.40031!4d78.490863" target="_blank" style="color:white;">#3-6-750,Taj corner Building,3rd floor,
+              <br>Street no-13,Himaythnagar,
+              <br>Telanagana State-500013, India</a>
+              <br>
+              <br>
+
+            <i class="tiny material-icons">call</i><a href="tel:096662 00700">Call Us</a>
+        </div>
+        <div class="col m12 l8" style="padding:20px;">
+          <div class = "row">
+            <form class = "col s12">
+              <div class = "row">
+                <div class = "input-field col s12">
+                    <input placeholder = "Name"  id = "name"
+                     type = "text" class = "active validate" required />
+                     <!-- <label for = "name">Name</label> -->
+                </div>
+
+
+              </div>
+
+              <div class = "row">
+                <div class = "input-field col s12">
+                  <input placeholder = "Email" id = "email" type = "email"
+                     class = "validate">
+                  <!-- <label for = "email">Email</label> -->
+               </div>
+             </div>
+
+             <div class = "row">
+               <div class = "input-field col s12">
+                 <textarea id = "address" placeholder="Message" class = "materialize-textarea"></textarea>
+                  <!-- <label for = "message">Message</label> -->
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--text section -->
+
+    <div class="text-section1 #ef5350 red lighten-2" style="padding:20px;">
+      <div class="container">
+        <h5 class="text1" style="text-align:center;margin:0%;">Knowledge About Studies WorldWide</h5>
+      </div>
+    </div>
 
     <!--footer-->
 
@@ -97,21 +123,23 @@
         <div class="row">
           <div class="col l6 s4">
               <h5 class="white-text">Reach Overseas</h5>
+              <br>
                 <p class="grey-text text-lighten-4">Knowledge about education World Wide</p>
           </div>
           <div class="col l4 offset-l2 4">
             <h5 class="white-text">Go To</h5>
+            <br>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+              <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+              <li><a class="grey-text text-lighten-3" href="about.html">About Us</a></li>
+              <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="col 12 s4">
             <h5 class="white-text">Contact</h5>
-            <p>Reach Overseas
-              <br>#3-6-750,Taj corner Building,3rd floor,Street no-13,Himaythnagar,Telanagana State-500013, India</p>
-              <div id="map"></div>
+            <br>
+            <h5>Reach Overseas</h5>
+              <a href="https://www.google.com/maps/place/Reach+Overseas/@17.4003151,78.4886743,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb99c3eb4f447f:0x862f0b4bc49b88d9!8m2!3d17.40031!4d78.490863" target="_blank" style="color:white;">#3-6-750,Taj corner Building,3rd floor,Street no-13,Himaythnagar,Telanagana State-500013, India</a>
           </div>
         </div>
       </div>
@@ -128,9 +156,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
-    <script async defer
+    <!-- <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQKbbPYdNY8XtJm1Fkzq4pm74iKqmTVTE&callback=initMap">
-    </script>
+    </script> -->
 
     <!--main script-->
 
