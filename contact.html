@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reach Overseas</title>
+    <meta name="keywords" content="reachoverseas">
+    <meta name="description" content="reachoverseas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <!--preloader-->
+    <div id="preloder" style="display: none;">
+		    <div class="loader" style="display: none;"></div>
+	  </div>
+
+    <!--navbar-->
+
+    <nav class="#b71c1c">
+      <div class="nav-wrapper container">
+        <a href="imgs/logo.png" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!--map banner-->
+
+    <img src="imgs/map.png" class="img-fluid" alt="map" style="width:100%;">
+
+
+    <!--contact form-->
+    <div class="row">
+
+      <div class="col-lg-6 col-md-12">
+        Message
+      </div>
+      <div class = "col-lg-6 col-md-12">
+        <form class = "col s12">
+          <div class = "row">
+            <div class = "input-field col s6">
+              <input placeholder = "Username"  id = "name"
+                     type = "text" class = "active validate" required />
+              <label for = "name">Username</label>
+            </div>
+
+          <div class = "input-field col s6">
+            <label for = "tel">Password</label>
+                <input id = "tel" type = "tel" placeholder = "Phone Number"
+                     class = "validate" required />
+          </div>
+        </div>
+
+        <div class = "row">
+          <div class = "input-field col s12">
+              <input placeholder = "Email" id = "email" type = "email"
+                     class = "validate">
+              <label for = "email">Email</label>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "input-field col s12">
+            <input placeholder = "Message" id = "comments"
+                  type = "text" />
+            <label for = "comments">Comments</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    <!--footer-->
+
+    <footer class="page-footer grey">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s4">
+              <h5 class="white-text">Reach Overseas</h5>
+                <p class="grey-text text-lighten-4">Knowledge about education World Wide</p>
+          </div>
+          <div class="col l4 offset-l2 4">
+            <h5 class="white-text">Go To</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col 12 s4">
+            <h5 class="white-text">Contact</h5>
+            <p>Reach Overseas
+              <br>#3-6-750,Taj corner Building,3rd floor,Street no-13,Himaythnagar,Telanagana State-500013, India</p>
+              <div id="map"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+          <div class="container">
+            © 2019 Copyright Text
+          </div>
+      </div>
+    </footer>
+
+    <!--scripts-->
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQKbbPYdNY8XtJm1Fkzq4pm74iKqmTVTE&callback=initMap">
+    </script>
+
+    <!--main script-->
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
