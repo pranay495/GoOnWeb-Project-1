@@ -6,3 +6,6 @@ text-section1{
 
 
 }
+html,body{
+  overflow-x: hidden;
+}
