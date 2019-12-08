@@ -6,6 +6,7 @@ text-section1{
 
 
 }
+<<<<<<< HEAD
 .mapouter{
   position:relative;
   text-align:right;
@@ -18,3 +19,8 @@ text-section1{
   height:535px;
   width:1080px;
 }
+=======
+html,body{
+  overflow-x: hidden;
+}
+>>>>>>> 93e9b0c87fd29b4041f2dd8c70988f788586e623
