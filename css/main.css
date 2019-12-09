@@ -1,26 +1,27 @@
-text1{
-  text-align: center;
-
+html,body{
+  overflow-x: hidden;
 }
-text-section1{
 
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 
-}
-<<<<<<< HEAD
 .mapouter{
   position:relative;
   text-align:right;
   height:535px;
-  width:1080px;
+  width:100%;
   }
+
+.slider li img{
+  max-width:100%;
+  height:auto;
+}
+
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
   height:535px;
-  width:1080px;
+  width:100%;
 }
-=======
-html,body{
-  overflow-x: hidden;
-}
->>>>>>> 93e9b0c87fd29b4041f2dd8c70988f788586e623
