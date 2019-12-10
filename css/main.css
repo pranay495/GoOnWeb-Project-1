@@ -25,3 +25,8 @@ html,body{
   height:535px;
   width:100%;
 }
+
+.tabs > li > a:hover{
+
+  border-bottom: 5px solid #F6B2B6;
+}
